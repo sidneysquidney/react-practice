@@ -19,6 +19,7 @@ function App() {
         </a>
         <p>new paragraph</p>
         <p>audio files added</p>
+        <p>added pics</p>
       </header>
     </div>
   );
