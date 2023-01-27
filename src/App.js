@@ -17,6 +17,7 @@ function App() {
         >
           Learn React sids practice
         </a>
+        <p>new paragraph</p>
       </header>
     </div>
   );
