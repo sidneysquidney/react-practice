@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
