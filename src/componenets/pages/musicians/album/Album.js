@@ -15,8 +15,7 @@ export default function Album() {
   const [trackIndex, setTrackIndex] = useState(0);
 
   // Destructure for conciseness
-  const { track_duration, title, artist, color, image, audioSrc } =
-    tracks[trackIndex];
+  const { title, artist, audioSrc } = tracks[trackIndex];
 
   // these 2 from audiocomponent
   const onNextButton = () => {
@@ -76,7 +75,7 @@ export default function Album() {
                 <div className="album-header1">
                   <p
                     className={
-                      index == trackIndex
+                      index === trackIndex
                         ? "text-aqua-blue album-number-text"
                         : "album-number-text"
                     }
@@ -90,7 +89,7 @@ export default function Album() {
                 <div className="album-header2">
                   <p
                     className={
-                      index == trackIndex
+                      index === trackIndex
                         ? "text-aqua-blue album-title-text"
                         : "album-title-text"
                     }
@@ -99,7 +98,7 @@ export default function Album() {
                   </p>
                   <p
                     className={
-                      index == trackIndex
+                      index === trackIndex
                         ? "text-aqua-blue album-artist-text"
                         : "album-artist-text"
                     }
@@ -110,7 +109,7 @@ export default function Album() {
                 <div className="album-header3">
                   <p
                     className={
-                      index == trackIndex
+                      index === trackIndex
                         ? "text-aqua-blue album-duration-text"
                         : "album-duration-text"
                     }

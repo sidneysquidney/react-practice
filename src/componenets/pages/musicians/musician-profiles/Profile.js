@@ -9,7 +9,11 @@ export default function Profile(props) {
   return (
     <div className="profile-container">
       <div className="profile-picture-container">
-        <img src={artist.picture} className="profile-picture"></img>
+        <img
+          src={artist.picture}
+          className="profile-picture"
+          alt="profile picture"
+        ></img>
       </div>
       <div className="profile-text-container">
         <h2>{artist.name}</h2>

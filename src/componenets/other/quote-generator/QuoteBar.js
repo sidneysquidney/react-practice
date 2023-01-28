@@ -55,7 +55,7 @@ function QuoteBar(props) {
           </div>
           <div
             className="quotebar-button"
-            id={props.background == "blue" ? "blue-background" : ""}
+            id={props.background === "blue" ? "blue-background" : ""}
             onClick={quoteButtonPressed}
           >
             <button type="button">

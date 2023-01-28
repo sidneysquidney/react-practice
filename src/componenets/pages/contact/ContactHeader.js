@@ -1,5 +1,4 @@
 import Navbar from "../../other/navbar/Navbar";
-import { Link } from "react-router-dom";
 
 export default function ContactHeader() {
   return (

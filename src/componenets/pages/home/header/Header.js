@@ -1,4 +1,3 @@
-import QuoteGenerator from "../../../other/quote-generator/QuoteGenerator";
 import Navbar from "../../../other/navbar/Navbar";
 import QuoteBar from "../../../other/quote-generator/QuoteBar";
 

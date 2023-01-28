@@ -1,7 +1,5 @@
 import QuoteBar from "../../other/quote-generator/QuoteBar";
 
-import QuoteGenerator from "../../other/quote-generator/QuoteGenerator";
-
 import { FaQuestionCircle } from "react-icons/fa";
 
 export default function QuotePageSection() {

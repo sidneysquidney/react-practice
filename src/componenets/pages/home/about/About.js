@@ -13,7 +13,11 @@ export default function About() {
         <div className="about-one">
           <h2>Who are we?</h2>
           <h3 className="alternate-section-title">Artists & Window Cleaners</h3>
-          <img src={windows_picture} className="about-image" />
+          <img
+            src={windows_picture}
+            className="about-image"
+            alt="window clean"
+          />
         </div>
         <div className="about-two">
           <h4>Our Mission</h4>

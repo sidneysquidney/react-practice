@@ -1,5 +1,4 @@
 import QuoteBar from "../../../other/quote-generator/QuoteBar";
-import QuoteGenerator from "../../../other/quote-generator/QuoteGenerator";
 
 import { FaMusic, FaSoap, FaSmile, FaQuestionCircle } from "react-icons/fa";
 

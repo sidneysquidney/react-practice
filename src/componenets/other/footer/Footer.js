@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import import_tracks from "../../pages/musicians/album/tracks";
 // import album_cover from "../../pages/musicians/album/assets/windows_logo.jpeg";
 
@@ -97,8 +97,7 @@ function FooterMusicPlayer(props) {
   const [trackIndex, setTrackIndex] = useState(0);
 
   // Destructure for conciseness
-  const { track_duration, title, artist, color, image, audioSrc } =
-    tracks[trackIndex];
+  const { title, artist, audioSrc } = tracks[trackIndex];
 
   // these 2 from audiocomponent
   const onNextButton = () => {
@@ -111,7 +110,11 @@ function FooterMusicPlayer(props) {
   return (
     <div className="footer-music-container">
       <div className="footer-music-info">
-        <img src={album_cover} className="footer-album-image" />
+        <img
+          src={album_cover}
+          className="footer-album-image"
+          alt="album cover"
+        />
         <div>
           <p className="album-title-text">{title}</p>
           <p className="album-artist-text">{artist}</p>

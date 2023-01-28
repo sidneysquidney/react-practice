@@ -52,7 +52,11 @@ function Reviews() {
 
   return (
     <div className="review-container-full bg-turquoise">
-      <img src={reviews_image} className="reviews-image"></img>
+      <img
+        src={reviews_image}
+        className="reviews-image"
+        alt="reviews title"
+      ></img>
       <Slider reviews={reviews} buttonClick={buttonClick} />
       <SliderDots reviewCount={reviews.length} />
     </div>
