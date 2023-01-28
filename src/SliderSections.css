@@ -1,0 +1,142 @@
+.founder-container-full,
+.review-container-full,
+.musician-profiles-container-full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* changed */
+.slide-container {
+  width: var(--slider-width-large);
+  position: relative;
+}
+
+.slide-section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.quote-slide-row,
+.review-slide-row,
+.musician-profiles-slide-row {
+  display: flex;
+  transition: 0.5s;
+}
+
+/* changed */
+.slide-col {
+  width: var(--slider-width-large);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide-dots {
+  display: flex;
+}
+
+.slide-dots p {
+  margin: 0px 3px;
+  transition: var(--transition-time);
+}
+
+.quote-slide-button,
+.review-slide-button {
+  color: var(--dark-blue);
+  border: none;
+  background-color: transparent;
+  transition: var(--transition-time);
+}
+
+.musician-profiles-slide-button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  transition: var(--transition-time);
+}
+
+.musician-profiles-slide-button:hover {
+  color: var(--turquoise);
+}
+
+.quote-slide-button:hover {
+  color: var(--aqua-blue);
+}
+
+.review-slide-button:hover {
+  color: white;
+}
+
+/* musician profiles */
+
+/* needs changing as goes.. */
+.profile-picture {
+  width: 320px;
+  height: 490px;
+}
+
+.profile-container {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.profile-picture-container,
+.profile-text-container {
+  width: 50%;
+}
+
+/* .profile-picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.profile-text-container h2 {
+  margin: 0;
+}
+
+.profile-text-container svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* lazy version  */
+
+@media only screen and (max-width: 950px) {
+  .musician-profiles-container-full,
+  .founder-container-full,
+  .review-container-full {
+    display: none;
+  }
+}
+/* 
+@media only screen and (max-width: 1024px) {
+  .slide-container {
+    width: var(--slider-width-medium);
+  }
+
+  .slide-col {
+    width: var(--slider-width-medium);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slide-container {
+    width: var(--slider-width-small);
+  }
+
+  .slide-col {
+    width: var(--slider-width-small);
+  }
+} */

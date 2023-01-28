@@ -39,6 +39,7 @@ function App() {
         <p>added fa icons</p>
         <p>link, audio player all added</p>
         <p>changed audio files, and added all components</p>
+        <p>slider css and deleted app css contents</p>
         {/* <img src="https://photos.google.com/album/AF1QipNFXjAT5dzD2x_PZVug4u561qMzJwOgmNDlAbea/photo/AF1QipOg9SuXJEtjxk6rP-T6P3LBnNqoALlMnYGb7y2N" /> */}
 
         <img src={im2} />
